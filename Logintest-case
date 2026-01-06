@@ -1,7 +1,7 @@
 # Login Test Cases
 
 ## Overview
-This document contains manual test cases for the Login feature of a web application.  
+This document contains manual test cases for the Login feature of https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 The purpose of these test cases is to ensure the login functionality works correctly under various conditions, including valid, invalid, and edge-case scenarios.
 
 ---
@@ -23,3 +23,4 @@ The purpose of these test cases is to ensure the login functionality works corre
 | TC-LOGIN-03 | Failed Login - input invalid password (Negative Case) | Success access login page | 1. Enter valid username<br>2. Enter invalid password<br>3. Click Login | User is failed login and it show "Invalid credentials" message |
 | TC-LOGIN-04 | Failed Login - username field is blank (Negative Case) | Success access login page | 1. Enter valid password<br>2. Click Login | User is failed login and it show "required" message under username field|
 | TC-LOGIN-05 | Failed Login - password field is blank (Negative Case) | Success access login page | 1. Enter valid username <br>2. Click Login | User is failed login and it show "required" message under password field|
+| TC-LOGIN-06 | Success Logout (Positive Case) | Success access dashboard | 1. Enter valid username <br>2. Click Login | User is failed login and it show "required" message under password field|
