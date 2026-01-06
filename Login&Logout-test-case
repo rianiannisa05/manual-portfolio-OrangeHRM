@@ -1,0 +1,23 @@
+# Login Test Cases
+
+## Overview
+This document contains manual test cases for the Login feature of a web application.  
+The purpose of these test cases is to ensure the login functionality works correctly under various conditions, including valid, invalid, and edge-case scenarios.
+
+---
+
+## Test Data
+- Valid Username: Admin 
+- Valid Password: admin123
+- Invalid Username: 123admin
+- Invalid Password: Admin123422 
+
+---
+
+## Test Cases
+
+| Test Case ID | Test Scenario (Positive/Negative) | Preconditions | Test Steps | Expected Result | Priority | Status |
+|-------------|---------------|------------|----------------|----------|--------|
+| TC-LOGIN-01 | Login with valid credentials | 1. Open login page<br>2. Enter valid email<br>3. Enter valid password<br>4. Click Login | User is successfully logged in and redirected to dashboard | High | Pass |
+| TC-LOGIN-02 | Login with invalid password | 1. Open login page<br>2. Enter valid email<br>3. Enter invalid password<br>4. Click Login | Error message displayed: "Invalid email or password" | High | Pass |
+| TC-LOGIN-03 | Login with unregistered email | 1. Open login page<br>2. Enter unregistered email<br>3. Enter any password<br>4. Click Login | Error message displayed | Medium | Pass |
