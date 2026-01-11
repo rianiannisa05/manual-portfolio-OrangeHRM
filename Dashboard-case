@@ -17,4 +17,7 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 
 | Test Case ID | Test Scenario (Positive/Negative Case) | Preconditions | Test Steps | Expected Result |
 |-------------|---------------|------------|----------------|----------|--------|
-|
+| TC-D-01 | Success access Time menu (Positive Case) | Success login and user is in Dashboard page | 1. Click clock icon in Time to Work card | It will navigated to Time page | 
+| TC-D-02 | Success access Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Leave Request to Approve text in My Actions card | It will navigated to Leave page |
+| TC-D-03 | Success access Performance menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Pending Self Review text in My Actions card | It will navigated to Performance page |
+| TC-D-04 | Success access Recruitment menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Candidate to Interview in My Actions card | It will navigated to Recruitment page |f
