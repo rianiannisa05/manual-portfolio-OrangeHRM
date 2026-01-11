@@ -1,1 +1,20 @@
 
+# Dashboard Test Cases
+
+## Overview
+This document contains manual test cases for the Dashboard feature of https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+The purpose of these test cases is to ensure the Dashboard functionality works correctly.
+
+---
+
+## Test Data
+- Valid Username: Admin 
+- Invalid Username: 123admin
+
+---
+
+## Test Cases
+
+| Test Case ID | Test Scenario (Positive/Negative Case) | Preconditions | Test Steps | Expected Result |
+|-------------|---------------|------------|----------------|----------|--------|
+|
