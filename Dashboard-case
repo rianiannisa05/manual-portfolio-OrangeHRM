@@ -17,7 +17,13 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 
 | Test Case ID | Test Scenario (Positive/Negative Case) | Preconditions | Test Steps | Expected Result |
 |-------------|---------------|------------|----------------|----------|--------|
-| TC-D-01 | Success access Time menu (Positive Case) | Success login and user is in Dashboard page | 1. Click clock icon in Time to Work card | It will navigated to Time page | 
-| TC-D-02 | Success access Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Leave Request to Approve text in My Actions card | It will navigated to Leave page |
-| TC-D-03 | Success access Performance menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Pending Self Review text in My Actions card | It will navigated to Performance page |
-| TC-D-04 | Success access Recruitment menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Candidate to Interview in My Actions card | It will navigated to Recruitment page |
+| TC-DASH-01 | Success access Punch In in Attendance menu (Positive Case) | Success login, user is in Dashboard page and user has not punch in | 1. Click clock icon in Time to Work card | It will navigated to Punch In at Attendance page | 
+| TC-DASH-02 | Success access Punch Out in Attendance menu (Positive Case) | Success login, user is in Dashboard page and user has punch in | 1. Click clock icon in Time to Work card | It will navigated to Punch Out at Attendance page |
+| TC-DASH-03 | Success access Pending Self Review (Positive Case) | Success login and user is in Dashboard page | 1. Click Pending Self Review text in My Actions card | It will navigated to Manage Reviews on Performance/Manage menu |
+| TC-DASH-04 | Success access Recruitment menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Candidate to Interview in My Actions card | It will navigated to Candidates on Recruitment menu |
+| TC-DASH-05 | Success access Assign Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Assign Leave in Quick Launch card | It will navigated to Assign Leave on Leave menu |
+| TC-DASH-06 | Success access Leave List in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Leave List in Quick Launch card | It will navigated to Leave List on Leave menu |
+| TC-DASH-07 | Success access Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Timesheets in Quick Launch card | It will navigated to Timesheets on Time/Timesheets on Leave menu |
+| TC-DASH-08 | Success access Apply in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Apply Leave in Quick Launch card | It will navigated to Apply on Leave menu |
+| TC-DASH-09 | Success access My Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Leave in Quick Launch card | It will navigated to My Leave on Leave menu |
+| TC-DASH-10 | Success access My Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Timesheet in Quick Launch card | It will navigated to My Timesheet on Time/Timesheets menu |
