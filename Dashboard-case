@@ -26,9 +26,15 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 | TC-DASH-07 | User able to see Quick Launch Card in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Quick Launch card is available in Dashboard page | Quick Launch Card is in Dashboard page |
 | TC-DASH-08 | Success access Assign Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Assign Leave in Quick Launch card | It will navigated to Assign Leave on Leave menu |
 | TC-DASH-09 | Success access Leave List in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Leave List in Quick Launch card | It will navigated to Leave List on Leave menu |
-| TC-DASH-08 | Success access Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Timesheets in Quick Launch card | It will navigated to Timesheets on Time/Timesheets on Leave menu |
-| TC-DASH-08 | Success access Apply in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Apply Leave in Quick Launch card | It will navigated to Apply on Leave menu |
-| TC-DASH-09 | Success access My Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Leave in Quick Launch card | It will navigated to My Leave on Leave menu |
-| TC-DASH-10 | Success access My Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Timesheet in Quick Launch card | It will navigated to My Timesheet on Time/Timesheets menu |
-| TC-DASH-11 | Success access Buzz Newsfeed in Buzz menu (Positive Case) | Success login and user is in Dashboard page | 1. Click name of user in Buzz Latest Posts card | It will navigated to Buzz Newsfeed in Buzz menu |
-| TC-DASH-12 | Success access Buzz Newsfeed in Buzz menu (Positive Case) | Success login and user is in Dashboard page | 1. Click name of user in Buzz Latest Posts card | It will navigated to Buzz Newsfeed in Buzz menu |
+| TC-DASH-10 | Success access Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Timesheets in Quick Launch card | It will navigated to Timesheets on Time/Timesheets on Leave menu |
+| TC-DASH-11 | Success access Apply in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Apply Leave in Quick Launch card | It will navigated to Apply on Leave menu |
+| TC-DASH-12 | Success access My Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Leave in Quick Launch card | It will navigated to My Leave on Leave menu |
+| TC-DASH-13 | Success access My Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Timesheet in Quick Launch card | It will navigated to My Timesheet on Time/Timesheets menu |
+| TC-DASH-14 | User able to see Buzz Latest Posts in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Buzz Latest Posts card is available in Dashboard page | Buzz Latest Posts card is in Dashboard page |
+| TC-DASH-15 | Success access Buzz Newsfeed in Buzz menu (Positive Case) | Success login and user is in Dashboard page | 1. Click name of user in Buzz Latest Posts card | It will navigated to Buzz Newsfeed in Buzz menu |
+| TC-DASH-14 | User able to see Employees on Leave Today in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Employees on Leave Today  card is available in Dashboard page | Employees on Leave Today  card is in Dashboard page |
+Last| TC-DASH-16 | Success to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click name of user in Buzz Latest Posts card | It will navigated to Buzz Newsfeed in Buzz menu |
+
+
+
+
