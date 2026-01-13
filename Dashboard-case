@@ -10,6 +10,8 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 ## Test Data
 - Valid Username: Admin 
 - Invalid Username: 123admin
+- Valid menu: Time
+- Invalid menu: Times
 
 ---
 
@@ -36,6 +38,21 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 | TC-DASH-17 | Success to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is active |
 | TC-DASH-18 | Success to inactive "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is active | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is inactive |
 | TC-DASH-19 | Cancel to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click cancel button | "Only show accessible employees on leave for other users" is stiil inactive |
+| TC-DASH-20 | User able to search menu (Positive Case) | Success login, user is in Dashboard page | 1. Click search input field<br>2. input Time | It will  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
