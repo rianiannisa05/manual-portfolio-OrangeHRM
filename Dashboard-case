@@ -38,9 +38,20 @@ The purpose of these test cases is to ensure the Dashboard functionality works c
 | TC-DASH-17 | Success to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is active |
 | TC-DASH-18 | Success to inactive "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is active | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is inactive |
 | TC-DASH-19 | Cancel to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click cancel button | "Only show accessible employees on leave for other users" is stiil inactive |
-| TC-DASH-20 | User able to search menu (Positive Case) | Success login, user is in Dashboard page | 1. Click search input field<br>2. input Time | It will  |
-
-
+| TC-DASH-20 | User able to search menu where it is available in menu list (Positive Case) | Success login, user is in Dashboard page | 1. Click search input field in Sidebar Navigation<br>2. input Time | It will show the menu Time |
+| TC-DASH-21 | User is not able to search menu that not available in menu list (Negative Case) | Success login, user is in Dashboard page | 1. Click search input field in Sidebar Navigation<br>2. input Times | There is no menu with Times |
+| TC-DASH-22 | User able to access Admin menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Admin in Sidebar Navigation | It will show the Admin menu |
+| TC-DASH-23 | User able to access PIM menu (Positive Case) | Success login, user is in Dashboard page | 1. Click PIM in Sidebar Navigation | It will show the PIM menu |
+| TC-DASH-24 | User able to access Leave menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Leave in Sidebar Navigation | It will show the Leave menu|
+| TC-DASH-25 | User able to access Time menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Time in Sidebar Navigation | It will show the Time menu |
+| TC-DASH-26 | User able to access Recruitment menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Recruitment in Sidebar Navigation | It will show the Recruitment menu |
+| TC-DASH-27 | User able to access My Info menu (Positive Case) | Success login, user is in Dashboard page | 1. Click My Info in Sidebar Navigation | It will show the My Info menu |
+| TC-DASH-28 | User able to access Performance menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Performance in Sidebar Navigation | It will show the Performance menu |
+| TC-DASH-29 | User able to access Dashboard (menu Positive Case) | User is in Performance page | 1. Click Dashboard in Sidebar Navigation | It will show the Dashboard menu |
+| TC-DASH-30 | User able to access Directory menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Directory in Sidebar Navigation | It will show the Directory menu  |
+| TC-DASH-31 | User able to access Maintenance menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Directory in Sidebar Navigation<br> 2. input password in Administrator Access | It will show the Maintenance menu |
+| TC-DASH-32 | User able to access Claim menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Claim in Sidebar Navigation | It will show the Claim menu |
+| TC-DASH-33 | User able to access Buzz menu (Positive Case) | Success login, user is in Dashboard page | 1. Click Buzz in Sidebar Navigation | It will show the Buzz menu |
 
 
 
