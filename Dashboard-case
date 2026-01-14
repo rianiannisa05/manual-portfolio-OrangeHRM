@@ -1,0 +1,70 @@
+
+# Dashboard Test Cases
+
+## Overview
+This document contains manual test cases for the Dashboard feature of https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+The purpose of these test cases is to ensure the Dashboard functionality works correctly.
+
+---
+
+## Test Data
+- Valid Username: Admin 
+- Invalid Username: 123admin
+- Valid menu: Time
+- Invalid menu: Times
+
+---
+
+## Test Cases
+
+| Test Case ID | Test Scenario (Positive/Negative Case) | Preconditions | Test Steps | Expected Result |
+|-------------|---------------|------------|----------------|----------|--------|
+| TC-DASH-01 | User able to see Time at Work card in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Time at Work card is available in Dashboard page | Time at Work card is in Dashboard page |
+| TC-DASH-02 | Success access Punch In in Attendance menu (Positive Case) | Success login, user is in Dashboard page and user has not punch in | 1. Click clock icon in Time to Work card | It will navigated to Punch In at Attendance page | 
+| TC-DASH-03 | Success access Punch Out in Attendance menu (Positive Case) | Success login, user is in Dashboard page and user has punch in | 1. Click clock icon in Time to Work card | It will navigated to Punch Out at Attendance page |
+| TC-DASH-04 | User able to see My Action Card in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the My Actions card is available in Dashboard page | My Actions card is in Dashboard page |
+| TC-DASH-05 | Success access Pending Self Review (Positive Case) | Success login and user is in Dashboard page | 1. Click Pending Self Review text in My Actions card | It will navigated to Manage Reviews on Performance/Manage menu |
+| TC-DASH-06 | Success access Recruitment menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Candidate to Interview in My Actions card | It will navigated to Candidates on Recruitment menu |
+| TC-DASH-07 | User able to see Quick Launch Card in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Quick Launch card is available in Dashboard page | Quick Launch Card is in Dashboard page |
+| TC-DASH-08 | Success access Assign Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Assign Leave in Quick Launch card | It will navigated to Assign Leave on Leave menu |
+| TC-DASH-09 | Success access Leave List in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Leave List in Quick Launch card | It will navigated to Leave List on Leave menu |
+| TC-DASH-10 | Success access Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Timesheets in Quick Launch card | It will navigated to Timesheets on Time/Timesheets on Leave menu |
+| TC-DASH-11 | Success access Apply in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click Apply Leave in Quick Launch card | It will navigated to Apply on Leave menu |
+| TC-DASH-12 | Success access My Leave in Leave menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Leave in Quick Launch card | It will navigated to My Leave on Leave menu |
+| TC-DASH-13 | Success access My Timesheets in Time/Timesheets menu (Positive Case) | Success login and user is in Dashboard page | 1. Click My Timesheet in Quick Launch card | It will navigated to My Timesheet on Time/Timesheets menu |
+| TC-DASH-14 | User able to see Buzz Latest Posts in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Buzz Latest Posts card is available in Dashboard page | Buzz Latest Posts card is in Dashboard page |
+| TC-DASH-15 | Success access Buzz Newsfeed in Buzz menu (Positive Case) | Success login and user is in Dashboard page | 1. Click name of user in Buzz Latest Posts card | It will navigated to Buzz Newsfeed in Buzz menu |
+| TC-DASH-16 | User able to see Employees on Leave Today in dashboard (Positive case) | Success login, user is in Dashboard page | 1. Check the Employees on Leave Today  card is available in Dashboard page | Employees on Leave Today  card is in Dashboard page |
+| TC-DASH-17 | Success to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is active |
+| TC-DASH-18 | Success to inactive "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is active | 1. Click gear icon<br>2. click the "Only show accessible employees on leave for other users" Toggle Switch<br>3. click save button | "Only show accessible employees on leave for other users" is inactive |
+| TC-DASH-19 | Cancel to activate "Only show accessible employees on leave for other users" (Positive Case) | Success login, user is in Dashboard page and "Only show accessible employees on leave for other users" is inactive | 1. Click gear icon<br>2. click cancel button | "Only show accessible employees on leave for other users" is stiil inactive |
+| TC-DASH-20 | User able to search menu (Positive Case) | Success login, user is in Dashboard page | 1. Click search input field<br>2. input Time | It will  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
