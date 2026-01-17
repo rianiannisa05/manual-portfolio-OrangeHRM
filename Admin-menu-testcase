@@ -1,0 +1,25 @@
+#Admin Menu Test Cases
+
+##Overview
+This document contains manual test cases for the Admin menu feature of https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+The purpose of these test cases is to ensure the Admin functionality works correctly.
+
+
+## Test Data
+- Valid Username: Admin
+- Invalid Username: 123admin
+- User Role: ESS
+- Valid Employee Name: Jobin Sam
+- Invalid Employee Name: 
+
+---
+
+## Test Cases
+
+| Test Case ID | Test Scenario (Positive/Negative Case) | Preconditions | Test Steps | Expected Result |
+|-------------|---------------|------------|----------------|----------|--------|
+| TC-AD-01 | Success search user using valid username (Positive Case) | Success access Admin menu | 1. Input valid Username in username field<br>2. Click search | It will show the user based on valid Username in user list |
+| TC-AD-02 | Failed search user using invalid username (Negative Case) | Success access Admin menu | 1. Input invalid Username in username field<br>2. Click search | It will show nothing in user list |
+| TC-AD-03 | Success filter user based on User Role (Positive Case) | Success access Admin menu | 1. Click User Role dropdown<br> 2. Choose a User Role<br> 3. Click search | User with User Role that has been chosen will be showing in user list |
+| TC-AD-04 | Success search user using valid employee name (Positive Case) | Success access Admin menu | 1. Input valid Employee name in Employee name field<br>2. Click search | Employee name that has been inputted will be showing in user list |
+| TC-AD-05 | 
